@@ -1,0 +1,45 @@
+# Python项目
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 环境变量文件（防止API密钥上传！！）
+.env
+
+# 日志
+*.log
+local_demo.log
+
+# RAG向量库
+stock_rag/vector_db/
+
+# 打包产物
+dist/
+build/
+*.spec
+
+# 本地Excel业务数据
+库存.xlsx
+*.xlsx
+*.xls
+
+# vscode配置
+.vscode/
