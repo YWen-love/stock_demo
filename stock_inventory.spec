@@ -16,7 +16,7 @@ datas += collect_data_files("gradio")
 
 
 a = Analysis(
-    [str(project_root / "desktop_app.py")],
+    [str(project_root / "main.py")],
     pathex=[str(project_root)],
     binaries=binaries,
     datas=datas,
