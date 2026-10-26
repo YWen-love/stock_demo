@@ -1,0 +1,13 @@
+.env
+__pycache__/
+.pytest_cache/
+*.log
+build/
+dist/
+installer_output/
+*.exe
+*.zip
+*.rar
+*.7z
+__pycache__/
+
